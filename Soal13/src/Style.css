@@ -1,0 +1,19 @@
+.continer {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 200px 1fr;
+    min-height: 100vh;
+}
+
+.card {
+    width: 250px;
+    height: 325px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+
+}
